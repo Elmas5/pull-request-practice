@@ -1,0 +1,18 @@
+clone 的时候会遇到的问题： OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054
+
+解决办法：
+1、打开 git-bash 终端
+2、git config http.sslVerify "false"
+
+	提示：fatal: not in a git directory
+
+3、git config  --global   http.sslVerify "false"
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+推送时会一直弹窗要求登录，然后用户名和密码明明是正确的（登录github.com验证过），可是一直提示logon faild。
+解决办法：
+工具——选择——验证
+设置账户验证方式为OAuth, 主机为github.com
+重启sourcetree推送
