@@ -1,2 +1,11 @@
+#忽略无需进行版本管理的文件
+
+#Mac系统自动生成
 .DS_Store
+#Windows系统自动生成
 Thumbs.db
+#memo.txt忽略自己用的备忘文件
+#*rbc忽略拓展名为.rbc的文件
+#!test.rbc作为例外情况，不忽略此文件
+#template_c/忽略此目录下所有的文件
+#/log/忽略根目录的log子目录下所有的文件
